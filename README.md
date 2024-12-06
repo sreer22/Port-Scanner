@@ -18,9 +18,13 @@ Network-Scanner is a powerful tool designed to scan and analyze network environm
 # Requirements
 
 Python 3
+
 socket
+
 ipaddress
+
 threading
+
 tkinter 
 
 
