@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en" class="no-js" data-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FriendlySite — Clean, accessible, user‑friendly website</title>
+    <meta name="description" content="A modern, fast, and accessible website template focused on great UX.">
+    <meta name="theme-color" content="#2563eb">
+    <meta property="og:title" content="FriendlySite">
+    <meta property="og:description" content="A modern, fast, and accessible website template focused on great UX.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="FriendlySite home">
+          <svg aria-hidden="true" focusable="false" width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2l9 5v10l-9 5-9-5V7l9-5z" fill="currentColor" opacity=".1"/><path d="M12 6l5.5 3.056v5.888L12 18l-5.5-3.056V9.056L12 6z" fill="currentColor"/></svg>
+          <span>FriendlySite</span>
+        </a>
+
+        <nav class="primary-nav" aria-label="Primary" id="primary-nav">
+          <ul class="nav-list">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how">How it works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button class="btn btn-ghost" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+          <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+            <span class="menu-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section id="home" class="section hero">
+        <div class="container grid grid-2">
+          <div class="stack gap-4">
+            <h1>Design that feels easy</h1>
+            <p class="lead">Build trust with a clean, human‑friendly website. Fast, responsive, and accessible by default.</p>
+            <div class="stack-row gap-2">
+              <a href="#contact" class="btn btn-primary">Get started</a>
+              <a href="#features" class="btn btn-secondary">Learn more</a>
+            </div>
+            <ul class="checks" role="list">
+              <li>Accessible by default</li>
+              <li>Mobile‑first, responsive</li>
+              <li>Dark mode built‑in</li>
+            </ul>
+          </div>
+          <div class="hero-card card">
+            <div class="card-body">
+              <h2 class="card-title">Why FriendlySite?</h2>
+              <p>Reduce friction, improve conversions, and delight users with thoughtful details.</p>
+              <ul class="bullets" role="list">
+                <li>Semantic HTML and ARIA</li>
+                <li>Keyboard and screen reader friendly</li>
+                <li>Great performance out of the box</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <h2 class="section-title">Features</h2>
+          <p class="section-subtitle">Everything you need to ship a delightful experience.</p>
+          <div class="grid grid-3 features-grid">
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Accessible</h3>
+                <p>Semantic structure, proper contrast, focus states, and reduced motion support.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Responsive</h3>
+                <p>Looks great on phones, tablets, and desktops with fluid layouts and typography.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Performant</h3>
+                <p>Minimal JS, system fonts, and optimized styles for fast loading and interaction.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Dark mode</h3>
+                <p>Automatically matches system preferences with a one‑click toggle.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Compliant</h3>
+                <p>Follows WCAG guidance to support assistive technologies.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Extensible</h3>
+                <p>Clean, modular CSS and JS so you can customize quickly.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="how" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">How it works</h2>
+          <ol class="steps" role="list">
+            <li>
+              <h3>Plan</h3>
+              <p>Clarify audience, goals, and content structure.</p>
+            </li>
+            <li>
+              <h3>Design</h3>
+              <p>Craft flows and UI that remove friction and cognitive load.</p>
+            </li>
+            <li>
+              <h3>Iterate</h3>
+              <p>Measure, learn, and improve with real users.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="pricing" class="section">
+        <div class="container">
+          <h2 class="section-title">Pricing</h2>
+          <div class="grid grid-3 pricing-grid">
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Starter</h3>
+                <p class="price"><span class="currency">$</span>0</p>
+                <ul class="bullets" role="list">
+                  <li>Core pages</li>
+                  <li>Responsive layout</li>
+                  <li>Email support</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary">Choose Starter</a>
+              </div>
+            </article>
+            <article class="card highlight">
+              <div class="card-body">
+                <h3 class="card-title">Pro</h3>
+                <p class="price"><span class="currency">$</span>29</p>
+                <ul class="bullets" role="list">
+                  <li>Everything in Starter</li>
+                  <li>Dark mode + theming</li>
+                  <li>Priority support</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Choose Pro</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Business</h3>
+                <p class="price"><span class="currency">$</span>99</p>
+                <ul class="bullets" role="list">
+                  <li>Everything in Pro</li>
+                  <li>Custom components</li>
+                  <li>Onboarding help</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary">Choose Business</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Contact us</h2>
+          <p class="section-subtitle">We usually reply within one business day.</p>
+          <form id="contact-form" class="form" novalidate>
+            <div class="grid grid-2">
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+                <p class="field-error" id="error-name" role="alert" aria-live="polite"></p>
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+                <p class="field-error" id="error-email" role="alert" aria-live="polite"></p>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <p class="field-error" id="error-message" role="alert" aria-live="polite"></p>
+            </div>
+            <div class="form-field form-check">
+              <input id="consent" name="consent" type="checkbox" required>
+              <label for="consent">I agree to the terms and privacy policy</label>
+              <p class="field-error" id="error-consent" role="alert" aria-live="polite"></p>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Send message</button>
+            </div>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="brand small">
+          <svg aria-hidden="true" focusable="false" width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2l9 5v10l-9 5-9-5V7l9-5z" fill="currentColor" opacity=".1"/><path d="M12 6l5.5 3.056v5.888L12 18l-5.5-3.056V9.056L12 6z" fill="currentColor"/></svg>
+          <span>FriendlySite</span>
+        </div>
+        <nav aria-label="Footer">
+          <ul class="nav-list small">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how">How it works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">© <span id="year"></span> FriendlySite. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <noscript>
+      This site works best with JavaScript enabled for interactions like the mobile menu and theme toggle.
+    </noscript>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
